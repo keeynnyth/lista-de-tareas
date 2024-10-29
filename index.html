@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lista de Tareas simple y divertida con cambios de estado del personaje según la carga de tareas">
+  <title>Lista de Tareas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Lista de Tareas</h1>
+    <img id="state-image" src="images/resting.webp" alt="Estado de ánimo" />
+    <p id="state-text">Nada que hacer por ahora...</p>
+    <section class="input-section">
+      <input type="text" id="task-input" placeholder="Nueva tarea...">
+      <button id="add-task-button">Agregar</button>
+    </section>
+    <ul id="task-list"></ul>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
