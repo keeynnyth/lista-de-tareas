@@ -25,4 +25,4 @@ La aplicación de lista de tareas está diseñada para ser funcional y entreteni
 1. Clona el repositorio en tu máquina local:
 
    ```bash
-   git clone 
+   git clone https://github.com/keeynnyth/lista-de-tareas.git
